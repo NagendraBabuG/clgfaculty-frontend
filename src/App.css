@@ -48,9 +48,12 @@
 
 .header {
   display: flex;
+  top: 10px;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+  color: black;
+  background-color: aquamarine;
 }
 
 .left {
@@ -81,4 +84,8 @@
 
 .right button:hover {
   background-color: #357ae8;
+}
+
+.content{
+  margin: 50px;
 }
